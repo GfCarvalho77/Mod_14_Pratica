@@ -1,0 +1,67 @@
+/* body{
+    font-family: Cinzel, sans-serif;
+} */
+
+.navbar-custom {
+    background-image:url(images/civvi-900x420.jpg);
+    background-size: cover; /* Para garantir que a imagem cubra todo o espaço da navbar */
+    background-size: 100% 100%;
+  }
+.carousel-item{
+    background-color: #000000;
+  }
+ 
+  #nav-title{
+   color: black;
+  }
+  
+
+#cabecalho .nav .nav-link.active{
+    background-color: #000000;
+    color:#ffffff
+}
+
+#cabecalho .nav-link, .navbar-brand, .navbar-brand:hover, .nav-ages .nav-link.active:hover{
+    color: #fff;
+}
+
+.navbar-toggler{
+    background-color: #ffeae6;}/* Hamburguer */
+
+.section-title{
+    font-family: Sparta, cursive;}
+
+
+
+#sobre-o-restaurante, #ages{
+    background-color: #ffeae6;
+}
+.text-colored{
+    color:#e15f41;
+    }
+.nav-ages .nav-link.active, #fale-conosco button{
+    background-color: #e15f41;
+    color: #ffeae6;
+
+}
+.nav-ages .nav-link:hover{
+    color: #e15f41;
+}
+.social-links a{
+    text-decoration: none;
+}
+.social-links li{
+    list-style: none;
+    display: inline;
+}
+
+@media(max-widht:767px){
+    .carousel-item img{
+        height: 280px;
+    }
+    #images_mongol{
+        padding: auto;
+    }
+
+    
+}
